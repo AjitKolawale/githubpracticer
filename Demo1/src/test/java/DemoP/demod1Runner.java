@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src\\test\\resources\\Features\\demod1.feature",glue={"DemoP"}
-,monochrome= true ,plugin={"pretty","html:target/html/Reports/report.html"})
+,monochrome= true ,plugin={"pretty","html:target/report.html"})
 
 
 
